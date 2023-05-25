@@ -38,6 +38,9 @@
 <h1 id="6-themes-next"><a href="#6-themes-next" class="headerlink" title="6 themes next"></a>6 themes next</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd 博客根目录</span><br><span class="line"></span><br><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">_config.yml</span><br><span class="line"></span><br><span class="line">theme: next</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
       <tags>
         <tag>hexo</tag>
       </tags>
