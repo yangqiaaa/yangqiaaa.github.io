@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>dir</title>
+    <url>/2023/05/24/dir/</url>
+    <content><![CDATA[<p>dir</p>
+<span id="more"></span>
+
+<p>[toc]</p>
+<h1 id="tbox"><a href="#tbox" class="headerlink" title="tbox"></a>tbox</h1><h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1>]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2023/05/23/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <span id="more"></span>
 
+<p>[toc]</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -18,6 +31,27 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><a href="./linux.md">md</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>linux</title>
+    <url>/2023/05/24/linux/</url>
+    <content><![CDATA[<p>linux</p>
+<span id="more"></span>
+<p>sudo apt-get install meld</p>
+]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>version</title>
+    <url>/2023/05/24/version/</url>
+    <content><![CDATA[<p>version</p>
+<span id="more"></span>
+
+<h1 id="version"><a href="#version" class="headerlink" title="version"></a>version</h1><p>| version   | date                  |      description	 |<br>| ——— | ——————— | ————-	 |<br>| 0.0.1     |  2023-05-27 14:09:39  | Create version md 	 |</p>
 ]]></content>
   </entry>
   <entry>
@@ -35,7 +69,7 @@
 
 <h1 id="5-cfg"><a href="#5-cfg" class="headerlink" title="5 cfg"></a>5 cfg</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br><span class="line"></span><br><span class="line">hexo clean清除了你之前生成的东西，也可以不加。可以用 hexo cl缩写</span><br><span class="line">hexo generate 顾名思义，生成静态文章，可以用 hexo g缩写</span><br><span class="line">hexo deploy 部署文章，可以用hexo d缩写</span><br></pre></td></tr></table></figure>
 
-<h1 id="6-themes-next"><a href="#6-themes-next" class="headerlink" title="6 themes next"></a>6 themes next</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd 博客根目录</span><br><span class="line"></span><br><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">_config.yml</span><br><span class="line"></span><br><span class="line">theme: next</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="6-themes-next"><a href="#6-themes-next" class="headerlink" title="6 themes next"></a>6 themes next</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd 博客根目录</span><br><span class="line"></span><br><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br><span class="line"></span><br><span class="line">git clone https://github.com/next-theme/hexo-theme-next.git next</span><br><span class="line"></span><br><span class="line">_config.yml</span><br><span class="line"></span><br><span class="line">theme: next</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -48,7 +82,11 @@
   <entry>
     <title>tbox</title>
     <url>/2023/05/24/tbox/tbox/</url>
-    <content><![CDATA[<h1 id="1-test"><a href="#1-test" class="headerlink" title="1 test"></a>1 test</h1>]]></content>
+    <content><![CDATA[<p>tbox</p>
+<span id="more"></span>
+<h1 id="1-test"><a href="#1-test" class="headerlink" title="1 test"></a>1 test</h1><div class="tabs" id="fourth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#fourth-unique-name-1">Solution 1</a></li><li class="tab"><a href="#fourth-unique-name-2">Solution 2</a></li><li class="tab"><a href="#fourth-unique-name-3">Solution 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="fourth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="fourth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="fourth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+]]></content>
       <tags>
         <tag>tbox</tag>
       </tags>
