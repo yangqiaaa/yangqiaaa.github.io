@@ -104,7 +104,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tbox_shc help</span><br></pre></td></tr></table></figure></div></div></div>
 
 
-<h1 id="2-2-version"><a href="#2-2-version" class="headerlink" title="2.2 version"></a>2.2 version</h1><div class="tabs" id="version"><ul class="nav-tabs"><li class="tab active"><a href="#version-1">version 1</a></li><li class="tab"><a href="#version-2">version 2</a></li><li class="tab"><a href="#version-3">version 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="version-1"><p><strong>ec20-ep30&#x2F;31</strong></p>
+<h2 id="2-2-version"><a href="#2-2-version" class="headerlink" title="2.2 version"></a>2.2 version</h2><div class="tabs" id="version"><ul class="nav-tabs"><li class="tab active"><a href="#version-1">version 1</a></li><li class="tab"><a href="#version-2">version 2</a></li><li class="tab"><a href="#version-3">version 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="version-1"><p><strong>ec20-ep30&#x2F;31</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">shell_cli.bin version</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="version-2"><p><strong>ec20-ep32&#x2F;36&#x2F;37&#x2F;40</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">shell_cli.bin version</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="version-3"><p><strong>ag551-ep36&#x2F;40</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tbox_shc version</span><br></pre></td></tr></table></figure></div></div></div>
