@@ -51,7 +51,7 @@
     <content><![CDATA[<p>version</p>
 <span id="more"></span>
 
-<h1 id="version"><a href="#version" class="headerlink" title="version"></a>version</h1><p>| version   | date                  |      description	 |<br>| ——— | ——————— | ————-	 |<br>| 0.0.1     |  2023-05-27 14:09:39  | Create version md 	 |<br>| 0.0.2     |  2023-05-27 16:14:39  | use next themes 	 |<br>| 0.0.3     |  2023-05-27 16:20:39  | add tbox cmd 	 |<br>| 0.0.4     |  2023-06-05 16:26:46  | add tbox cmd start &amp; stop mpu 	 |</p>
+<h1 id="version"><a href="#version" class="headerlink" title="version"></a>version</h1><p>| version   | date                  |      description	 |<br>| ——— | ——————— | ————-	 |<br>| 0.0.1     |  2023-05-27 14:09:39  | Create version md 	 |<br>| 0.0.2     |  2023-05-27 16:14:39  | use next themes 	 |<br>| 0.0.3     |  2023-05-27 16:20:39  | add tbox cmd 	 |<br>| 0.0.4     |  2023-06-05 16:26:46  | add tbox cmd start &amp; stop mpu 	 |<br>| 0.0.5     |  2023-06-05 16:26:46  | add tbox cmd start &amp; stop mpu 	 |</p>
 ]]></content>
   </entry>
   <entry>
@@ -78,6 +78,11 @@
       <tags>
         <tag>hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/06/06/tbox/data/</url>
+    <content><![CDATA[<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1>]]></content>
   </entry>
   <entry>
     <title>tbox</title>
@@ -153,6 +158,22 @@ iccid
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="start-mpu-2"><p><strong>ec20-ep32&#x2F;36&#x2F;37&#x2F;40</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="start-mpu-3"><p><strong>ag551-ep36&#x2F;40</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd /usrdata/current/data/image\r\n</span><br><span class="line">chmod 777 *\r\n</span><br><span class="line">./tbox_spv ./tbox_spv.conf &amp;\r\n</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+<h2 id="4-3-PROD-—-gt-UAT"><a href="#4-3-PROD-—-gt-UAT" class="headerlink" title="4.3 PROD —&gt; UAT"></a>4.3 PROD —&gt; UAT</h2><p>UAT and PROD must both be built with vehicles</p>
+<div class="tabs" id="ptou"><ul class="nav-tabs"><li class="tab active"><a href="#ptou-1">ptou 1</a></li><li class="tab"><a href="#ptou-2">ptou 2</a></li><li class="tab"><a href="#ptou-3">ptou 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="ptou-1"><p><strong>ec20-ep30&#x2F;31</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="ptou-2"><p><strong>ec20-ep32&#x2F;36&#x2F;37&#x2F;40</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="ptou-3"><p><strong>ag551-ep36&#x2F;40</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tbox_shc gbsetaddr tbox-pki-uat.carobo.cn 50400\r\n</span><br><span class="line">tbox_shc pkien 0\r\n</span><br><span class="line">pkill tbox_app\r\n</span><br><span class="line">tbox_shc settboxid 0\r\n</span><br><span class="line">tbox_shc gbsetvin xxx\r\n</span><br></pre></td></tr></table></figure></div></div></div>
+
+
+
+<h2 id="4-4-UAT-—-gt-PROD"><a href="#4-4-UAT-—-gt-PROD" class="headerlink" title="4.4 UAT —&gt; PROD"></a>4.4 UAT —&gt; PROD</h2><p>UAT and PROD must both be built with vehicles</p>
+<div class="tabs" id="utop"><ul class="nav-tabs"><li class="tab active"><a href="#utop-1">utop 1</a></li><li class="tab"><a href="#utop-2">utop 2</a></li><li class="tab"><a href="#utop-3">utop 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="utop-1"><p><strong>ec20-ep30&#x2F;31</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="utop-2"><p><strong>ec20-ep32&#x2F;36&#x2F;37&#x2F;40</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="utop-3"><p><strong>ag551-ep36&#x2F;40</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tbox_shc defaultsettings\r\n</span><br><span class="line">tbox_shc pkien 1\r\n</span><br><span class="line">pkill tbox_app\r\n</span><br><span class="line">tbox_shc settboxid 0\r\n</span><br><span class="line">tbox_shc gbsetvin xxx\r\n</span><br></pre></td></tr></table></figure></div></div></div>
+
 ]]></content>
       <tags>
         <tag>tbox</tag>
