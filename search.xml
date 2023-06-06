@@ -80,9 +80,33 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2023/06/06/tbox/data/</url>
-    <content><![CDATA[<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1>]]></content>
+    <title>tbox</title>
+    <url>/2023/05/24/tbox/data/</url>
+    <content><![CDATA[<p>data</p>
+<span id="more"></span>
+<h1 id="1-call-number"><a href="#1-call-number" class="headerlink" title="1 call number"></a>1 call number</h1><p>ecall           :   057388279910<br>bcall           :   057388279951<br>call in         :   057388279919<br>call test hozon :   13040663723<br>call test intest:   13797068042</p>
+<h1 id="2-GB-inspection"><a href="#2-GB-inspection" class="headerlink" title="2 GB inspection"></a>2 GB inspection</h1><p>过检<br>GB32960 server url               : 47.102.130.222<br>GB32960 server port              : 20000<br>（1代表纯电  2代表增程 ）<br>shell_cli.bin gbsettype 1<br>1代表单电机、2双电机<br>shell_cli.bin gbsetmotor 1</p>
+<h1 id="3"><a href="#3" class="headerlink" title="3"></a>3</h1><p>vmware workstation 17 pro激活密钥，通用批量永久激活许可<br>17：JU090-6039P-08409-8J0QH-2YR7F</p>
+<h1 id="4-jira"><a href="#4-jira" class="headerlink" title="4 jira"></a>4 jira</h1><p>肖尚昆<br>80041203<br>QWEasd123</p>
+<p>Z01662<br>HEjun2wsx</p>
+<p><a href="https://60.12.185.134/">https://60.12.185.134</a></p>
+<p><a href="http://jira.hozonauto.com:8080/browse/EEAEP31-98?filter=-1">http://jira.hozonauto.com:8080/browse/EEAEP31-98?filter=-1</a></p>
+<h1 id="FTP-firmware"><a href="#FTP-firmware" class="headerlink" title="FTP firmware"></a>FTP firmware</h1><p>url<br>nats.intestcar.com:63061</p>
+<p>usr<br>update</p>
+<p>pwd<br>intest@Yanfa</p>
+<h1 id="tcpdump"><a href="#tcpdump" class="headerlink" title="tcpdump"></a>tcpdump</h1><p>tcpdump -i bridge0 port 20000 -w  &#x2F;mnt&#x2F;sdcard&#x2F;pcm.pcap &amp;</p>
+<p>tcpdump -i bridge0 port 5757 -w  &#x2F;mnt&#x2F;sdcard&#x2F;tbox_cdcs.pcap &amp;</p>
+<h1 id="pb"><a href="#pb" class="headerlink" title="pb"></a>pb</h1><p>protoc-c –c_out&#x3D;. IVI_Tbox_v4.10.proto</p>
+<h1 id="logcat"><a href="#logcat" class="headerlink" title="logcat"></a>logcat</h1><p>logcat -s TboxService<br>logcat &gt; &#x2F;mnt&#x2F;sdcard&#x2F;logcat.txt &amp;</p>
+<h1 id="qxids"><a href="#qxids" class="headerlink" title="qxids"></a>qxids</h1><p>AK: A48k34v6tvfa<br>AS: 019a61faf2a5256d</p>
+<h1 id="adb"><a href="#adb" class="headerlink" title="adb"></a>adb</h1><p>adb shell getprop | grep sn</p>
+<h1 id="download"><a href="#download" class="headerlink" title="download"></a>download</h1><h2 id="1-tsmaster"><a href="#1-tsmaster" class="headerlink" title="1 tsmaster"></a>1 tsmaster</h2><p><a href="http://www.tosun.tech/TOSUNSoftware/TSMaster_Setup_beta.exe">http://www.tosun.tech/TOSUNSoftware/TSMaster_Setup_beta.exe</a></p>
+<h2 id="2-vscode"><a href="#2-vscode" class="headerlink" title="2 vscode"></a>2 vscode</h2><p>即<br><a href="https://az764295.vo.msecnd.net/stable/129500ee4c8ab7263461ffe327268ba56b9f210d/VSCodeUserSetup-x64-1.72.1.exe">https://az764295.vo.msecnd.net/stable/129500ee4c8ab7263461ffe327268ba56b9f210d/VSCodeUserSetup-x64-1.72.1.exe</a><br>修改为<br><a href="https://vscode.cdn.azure.cn/stable/129500ee4c8ab7263461ffe327268ba56b9f210d/VSCodeUserSetup-x64-1.72.1.exe">https://vscode.cdn.azure.cn/stable/129500ee4c8ab7263461ffe327268ba56b9f210d/VSCodeUserSetup-x64-1.72.1.exe</a></p>
+<p>vscode.cdn.azure.cn</p>
+]]></content>
+      <tags>
+        <tag>tbox</tag>
+      </tags>
   </entry>
   <entry>
     <title>tbox</title>
@@ -131,7 +155,9 @@ iccid
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">utbox_shc dumpst</span><br><span class="line">[2023-05-27 17:24:56.669] I [tbox_app.SHELL] &lt;do_command&gt; Received command &#x27;dumpst&#x27; from &#x27;/tmp/ipc.shell.client&#x27;</span><br><span class="line"></span><br><span class="line">+&gt;Result of &quot;dumpst&quot;</span><br><span class="line">dump status CMD</span><br><span class="line">-------------------tbox status-------------------</span><br><span class="line">app startup count   : 161</span><br><span class="line">mcu wakeup source   : 0</span><br><span class="line">check switch   :on</span><br><span class="line">check period   :1000 ms</span><br><span class="line">can 1 bus :IDLE </span><br><span class="line">can 2 bus :IDLE </span><br><span class="line">can 3 bus :IDLE </span><br><span class="line">can 1 busoff :no</span><br><span class="line">can 2 busoff :no</span><br><span class="line">can 3 bus0ff :no</span><br><span class="line">ANT status     :</span><br><span class="line">   ANT_MAIN :ANT_ST_OPEN   </span><br><span class="line">   ANT_SUB  :ANT_ST_OPEN   </span><br><span class="line">   ANT_MIMO1:ANT_ST_OPEN   </span><br><span class="line">   ANT_MIMO2:ANT_ST_OPEN   </span><br><span class="line">   ANT_V2X0 :ANT_ST_NORMAL </span><br><span class="line">   ANT_V2X1 :ANT_ST_OPEN   </span><br><span class="line">SIM status     :b03- Card is present</span><br><span class="line">apn status     :</span><br><span class="line">   apnId:0 apnName:CMIOT5GHZXNY.SH          devName:rmnet_data0  GWIP:10.82.2.203        PRIDNS:172.16.40.244      SECDNS:172.16.40.245      netState:1</span><br><span class="line">   apnId:1 apnName:CMMTM5GHZXNY.SH          devName:rmnet_data1  GWIP:10.128.36.181      PRIDNS:211.136.150.86     SECDNS:211.136.150.88     netState:1</span><br><span class="line">EMMC status    :EMMC_ST_OK</span><br><span class="line">power voltage  :11755 mV</span><br><span class="line">battery voltage  :0 mV</span><br><span class="line">battery status  :offline  </span><br><span class="line">KL15 status   :0</span><br><span class="line">USB status   :1</span><br><span class="line">GNSS fix status:not fix</span><br><span class="line">mod wakeup conf:</span><br><span class="line"> GNSS ANT Status  OPEN Err!</span><br><span class="line">SRS status   :0</span><br><span class="line">ecall btn status   :0</span><br><span class="line">xcall btn con status   :0</span><br><span class="line">88Q2112 LINK STATUS    :0</span><br><span class="line">-------------------------end------------------------</span><br><span class="line">OK!</span><br><span class="line">+&gt;Result end</span><br></pre></td></tr></table></figure></div></div></div>
 
 
-<h1 id="3-Setting-instructions"><a href="#3-Setting-instructions" class="headerlink" title="3 Setting instructions"></a>3 Setting instructions</h1><h2 id="3-1-open-shell"><a href="#3-1-open-shell" class="headerlink" title="3.1 open shell"></a>3.1 open shell</h2><h2 id="3-2-open-ortp-path"><a href="#3-2-open-ortp-path" class="headerlink" title="3.2 open ortp path"></a>3.2 open ortp path</h2><h2 id="3-3-open-adb"><a href="#3-3-open-adb" class="headerlink" title="3.3 open adb"></a>3.3 open adb</h2><div class="tabs" id="open-adb"><ul class="nav-tabs"><li class="tab active"><a href="#open-adb-1">open adb 1</a></li><li class="tab"><a href="#open-adb-2">version 2</a></li><li class="tab"><a href="#open-adb-3">version 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="open-adb-1"><p><strong>ec20-ep30&#x2F;31</strong></p>
+<h1 id="3-Setting-instructions"><a href="#3-Setting-instructions" class="headerlink" title="3 Setting instructions"></a>3 Setting instructions</h1><h2 id="3-1-open-shell"><a href="#3-1-open-shell" class="headerlink" title="3.1 open shell"></a>3.1 open shell</h2><p>PATH&#x3D;$PATH:&#x2F;oemapp&#x2F;bin</p>
+<h2 id="3-2-open-ortp-path"><a href="#3-2-open-ortp-path" class="headerlink" title="3.2 open ortp path"></a>3.2 open ortp path</h2><p>export LD_LIBRARY_PATH&#x3D;&#x2F;usr&#x2F;lib:&#x2F;oemapp&#x2F;lib</p>
+<h2 id="3-3-open-adb"><a href="#3-3-open-adb" class="headerlink" title="3.3 open adb"></a>3.3 open adb</h2><div class="tabs" id="open-adb"><ul class="nav-tabs"><li class="tab active"><a href="#open-adb-1">open adb 1</a></li><li class="tab"><a href="#open-adb-2">version 2</a></li><li class="tab"><a href="#open-adb-3">version 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="open-adb-1"><p><strong>ec20-ep30&#x2F;31</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="open-adb-2"><p><strong>ec20-ep32&#x2F;36&#x2F;37&#x2F;40</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">no data</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="open-adb-3"><p><strong>ag551-ep36&#x2F;40</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo on &gt; /data/usb/usb_adb_enable\r\n</span><br><span class="line">sync\r\n</span><br><span class="line">reboot\r\n</span><br></pre></td></tr></table></figure></div></div></div>
